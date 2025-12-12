@@ -1,0 +1,191 @@
+body{
+background-color:hsl(228, 78%, 49%);   
+ font-weight: bold;
+   margin: 0px;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.forma{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ 
+.container{ 
+    border:1px solid; 
+    background-color: #ffff; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 100px; 
+    padding: 40px;  
+} 
+ 
+ 
+ 
+.container-formu{ 
+    border:1px solid; 
+    background-color: #ffff; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 100px; 
+    padding: 40px; 
+}
+
+
+
+
+.user{
+    position: relative;
+    margin: 30px;
+}
+
+.password{
+    position: relative;
+    margin: 10px;
+    padding-bottom:10px ;
+}
+
+
+input[type="submit"]
+ {
+    background-color: #70c8d5;
+    color: white; 
+    padding:  10px; 
+    font-size: 16px; 
+    border: 10px solid; 
+    cursor: pointer; 
+  }
+
+  input[type="submit"]:hover
+   {
+    background-color: #0056b3; 
+}
+
+
+
+.submit eliminar
+{
+    background-color: #ED2600;
+    color: white; 
+    padding:  10px; 
+    font-size: 16px; 
+    border: 10px solid; 
+    cursor: pointer; 
+  }
+
+  .submit eliminar:hover
+  {
+    background-color:#C72300
+  }
+
+a button.act {
+    background-color: #C300FF;
+    color: white; 
+    padding:  10px; 
+    font-size: 16px; 
+    border: 10px solid; 
+    cursor: pointer; 
+  }
+
+  a button.act:hover
+   {
+    background-color: #7D00A3; 
+}
+
+
+
+  h1{
+     text-align:center ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    border-bottom: solid #E9E9E9;
+}
+
+
+  h2{
+     text-align:center ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+  }
+
+
+.ade{
+    margin-left: 80px;
+}
+
+.atras{
+ margin-left: 45px;  
+}
+
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color:#1C1C1C;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+background-color:#636363
+}
+
+.navbar li{
+    float: left;
+}
+
+.catalogo{
+      display: flex;
+    flex-wrap: wrap;  
+    justify-content: center; 
+    padding: 20px;
+    gap: 20PX;
+
+
+}
+
+.tarjeta{
+    background:#FFFF  ;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+.tarjeta img{
+     width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.tarjeta strong{
+   font-size: 1.1rem;
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.mini{
+    width: 300px;
+    height: auto;  
+}
+
+
+
